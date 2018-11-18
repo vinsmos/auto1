@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>This is a file were to set test data</comment>
+<entry key="systemSetProperty">true</entry>
+<entry key="browserDriver">chrome</entry>
+<entry key="webDriver">webdriver.chrome.driver</entry>
+<entry key="webDriverPath">{executable browser file path}</entry>
+<entry key="webappUrl">https://www.autohero.com/de/search/</entry>
+<entry key="css-select-filter-year">[data-qa-selector="filter-year"]</entry>
+<entry key="css-select-filter-year-range">select[name="yearRange.min"] option[data-qa-selector-value="2015"]</entry>
+<entry key="filter-year-value">2015</entry>
+<entry key="css-select-filter-sort">select[name="sort"] option[data-qa-selector-value="offerPrice.amountMinorUnits.desc"]</entry>
+<entry key="css-search-total-result">[data-qa-selector="results-amount"]</entry>
+<entry key="css-select-pagination-name">[name="pageSize"]</entry>
+<entry key="css-search-cars-data-result">[class~="item___T1IPF"] [data-qa-selector="spec-list"]</entry>
+<entry key="css-search-cars-price-result">[data-qa-selector="price"]</entry>
+<entry key="css-pagination-next-link">span[aria-label="Next"]</entry>
+<entry key="css-popup-modal">button[class~="close"]</entry>
+</properties>
