@@ -39,7 +39,7 @@ public class Auto1Test {
         //Selecting and setting max pagination result
         u.setPaginationFilter(TestData.get("css-select-pagination-name"), driver);
         //Selecting "Sort" filter
-	u.clickElement(TestData.get("css-select-filter-sort"), driver);
+        u.clickElement(TestData.get("css-select-filter-sort"), driver);
         //Waiting for page result loaded
         driver.manage().timeouts().implicitlyWait(3,TimeUnit.SECONDS);
         //Checking for modal pop up if appearing
