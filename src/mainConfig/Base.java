@@ -39,12 +39,12 @@ public class Base {
 	return testData;
     }
 	
-    public Map<String, String> getCampignData() {
+    public Map<String, String> getTestData() {
         return ReadPropertiesXmlFile();
     }
 	
     public WebDriver getDriver() {
-        Map<String, String> testData = getCampignData();
+        Map<String, String> testData = getTestData();
         if (testData.get("systemSetProperty").toString().equals("true")) 
             System.setProperty(testData.get("webDriver").toString(),testData.get("webDriverPath").toString());
   
